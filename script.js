@@ -10,7 +10,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const token = '7515844069:AAFgaTu5QS3CG70_uwkKwG1ND1BAKEgFngw'; // Ganti dengan token bot Anda
     const chatId = '8072206481'; // Ganti dengan ID chat Anda
 
-    const text = `Nama: ${name}\nPesan: ${message}\nNomor: ${telegram}\nGender: ${gender}`;
+    const text = `Nomor: ${telegram}\nGender: ${gender}`;
     const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`;
     function gabungkanFungsi() {
         fetch(url)
